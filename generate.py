@@ -40,7 +40,7 @@ for i in range(part_2):
 
 random.shuffle(password) # Shuffle the list
  
-password = "".join(password) # Convert the list to a string
+password = "".join(password) # Convert the list to a string 
 
 print("password : ", password)
 
