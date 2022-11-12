@@ -1,8 +1,6 @@
 import string # string module
 import random # random module
 
-
-
 numbers = list(string.digits) # 0123456789
 symbols = list(string.punctuation) # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 lowercase = list(string.ascii_lowercase) # abcdefghijklmnopqrstuvwxyz
@@ -45,3 +43,5 @@ random.shuffle(password) # Shuffle the list
 password = "".join(password) # Convert the list to a string
 
 print("password : ", password)
+
+
