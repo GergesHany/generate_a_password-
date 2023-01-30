@@ -32,8 +32,6 @@ void Accepted(){
   string password;       
   int part_1 = round(number_of_characters * (25.0 / 100.0));
   int part_2 = round(number_of_characters *  (30.0 / 100.0));
-  
-  cout << part_1 << " " << part_2 << endl;
 
   for (int i = 0; i < part_1; i++) {
     password += upper_case[rand() % sz(upper_case)];
